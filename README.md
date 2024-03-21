@@ -15,7 +15,7 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/devisri-charan/taskbox.git
    ```
 
 2. Navigate into the project directory:
