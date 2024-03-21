@@ -1,0 +1,59 @@
+/* toast.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.toast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: inset;
+    width: 350px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .toast-icon {
+    margin-right: 10px;
+  }
+  
+  .toast-message {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .toast-action {
+    background-color: #47B647;
+    border: 1px solid transparent;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .toast-close {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  
+  .toast--with-divider {
+    border-left: 3px solid white;
+    padding-left: 18px;
+  }
+  
+  .toast--no-action .toast-action {
+    display: none;
+  }
+
+  .post-divider{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
